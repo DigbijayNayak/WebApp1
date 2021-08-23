@@ -1,0 +1,12 @@
+E:\WebApplication\WebApplication1\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.deps.json
+E:\WebApplication\WebApplication1\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+E:\WebApplication\WebApplication1\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+E:\WebApplication\WebApplication1\BusinessLogic\bin\Debug\netcoreapp3.1\Entity.dll
+E:\WebApplication\WebApplication1\BusinessLogic\bin\Debug\netcoreapp3.1\Entity.pdb
+E:\WebApplication\WebApplication1\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.AssemblyReference.cache
+E:\WebApplication\WebApplication1\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.AssemblyInfoInputs.cache
+E:\WebApplication\WebApplication1\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.AssemblyInfo.cs
+E:\WebApplication\WebApplication1\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\WebApplication\WebApplication1\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.CopyComplete
+E:\WebApplication\WebApplication1\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.dll
+E:\WebApplication\WebApplication1\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.pdb

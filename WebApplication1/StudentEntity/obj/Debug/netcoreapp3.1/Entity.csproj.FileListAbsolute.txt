@@ -1,0 +1,9 @@
+E:\WebApplication\WebApplication1\StudentEntity\bin\Debug\netcoreapp3.1\Entity.deps.json
+E:\WebApplication\WebApplication1\StudentEntity\bin\Debug\netcoreapp3.1\Entity.dll
+E:\WebApplication\WebApplication1\StudentEntity\bin\Debug\netcoreapp3.1\Entity.pdb
+E:\WebApplication\WebApplication1\StudentEntity\obj\Debug\netcoreapp3.1\Entity.csproj.AssemblyReference.cache
+E:\WebApplication\WebApplication1\StudentEntity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+E:\WebApplication\WebApplication1\StudentEntity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs
+E:\WebApplication\WebApplication1\StudentEntity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+E:\WebApplication\WebApplication1\StudentEntity\obj\Debug\netcoreapp3.1\Entity.dll
+E:\WebApplication\WebApplication1\StudentEntity\obj\Debug\netcoreapp3.1\Entity.pdb
