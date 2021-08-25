@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WebApplication\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\WebApplication\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "E:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj": {
+    "D:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "D:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "E:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\WebApplication\\WebApplication1\\BusinessLogic\\obj\\",
+        "projectPath": "D:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\BIPCPU056\\.nuget\\packages\\",
+        "outputPath": "D:\\WebApplication\\WebApplication1\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BIPCPU056\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj": {
-                "projectPath": "E:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj"
+              "D:\\WebApplication\\WebApplication1\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\WebApplication\\WebApplication1\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj": {
+                "projectPath": "D:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj"
               }
             }
           }
@@ -58,21 +61,85 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj": {
+    "D:\\WebApplication\\WebApplication1\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj",
-        "projectName": "Entity",
-        "projectPath": "E:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\WebApplication\\WebApplication1\\StudentEntity\\obj\\",
+        "projectUniqueName": "D:\\WebApplication\\WebApplication1\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\WebApplication\\WebApplication1\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\BIPCPU056\\.nuget\\packages\\",
+        "outputPath": "D:\\WebApplication\\WebApplication1\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BIPCPU056\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj": {
+                "projectPath": "D:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "D:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\BIPCPU056\\.nuget\\packages\\",
+        "outputPath": "D:\\WebApplication\\WebApplication1\\StudentEntity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BIPCPU056\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,21 +179,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\WebApplication\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\WebApplication\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WebApplication\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\WebApplication\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "E:\\WebApplication\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\WebApplication\\WebApplication1\\WebApplication1\\obj\\",
+        "projectPath": "D:\\WebApplication\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\BIPCPU056\\.nuget\\packages\\",
+        "outputPath": "D:\\WebApplication\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BIPCPU056\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -140,11 +207,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "E:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj"
+              "D:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "D:\\WebApplication\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "E:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj": {
-                "projectPath": "E:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj"
+              "D:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj": {
+                "projectPath": "D:\\WebApplication\\WebApplication1\\StudentEntity\\Entity.csproj"
               }
             }
           }
@@ -158,6 +225,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -176,7 +253,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,16 +14,17 @@ namespace WebApplication1.Controllers
     public class StudentDetailsController : Controller
     {
         private readonly ILogger<StudentDetailsController> _logger;
-
-        public StudentDetailsController(ILogger<StudentDetailsController> logger)
+        IBusinessLogic _businessLogic;  
+        public StudentDetailsController(ILogger<StudentDetailsController> logger, IBusinessLogic businessLogic)
         {
             _logger = logger;
+            _businessLogic = businessLogic;
         }
 
         [HttpGet]
         public IEnumerable<StudentEntity> Get(int rollNo)
         {
-            var result = new BussinessLogic().GetFilteredStudentRecord(rollNo);
+            var result = _businessLogic.GetFilteredStudentRecord(rollNo);
             return Enumerable.Range(1, 1).Select(index => new StudentEntity
             {
                 Name = result.Name,
@@ -36,7 +37,7 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public IEnumerable<StudentEntity> GetRandom()
         {
-            var res = new BussinessLogic().GetFilteredByRandom();
+            var res = _businessLogic.GetFilteredByRandom();
             return Enumerable.Range(1,1).Select(index => new StudentEntity{
                 Name = res.Name,
                 RollNo = res.RollNo,
@@ -49,7 +50,7 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public IEnumerable<StudentEntity> GetName(string name)
         {
-            var result = new BussinessLogic().GetFilteredByName(name);
+            var result = _businessLogic.GetFilteredByName(name);
             return result.AsEnumerable();
             //return Enumerable.Range(1, 1).Select(index => new StudentEntity
             //{
@@ -59,10 +60,13 @@ namespace WebApplication1.Controllers
             //})
             //.ToArray();
         }
+
+
         [HttpPost]
         public bool SaveRecord(StudentEntity stdEntity)
         {
-            return new BussinessLogic().SavesStudentRecord(stdEntity);
+            return _businessLogic.SavesStudentRecord(stdEntity);
+            //return true; // new BussinessLogic().SavesStudentRecord(stdEntity);
         }
 
         //[HttpGet, Route("/rollNo/{id}")]

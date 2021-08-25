@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{69249898-EC71-4ABB-9AEA-25F8153D9DC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{69249898-EC71-4ABB-9AEA-25F8153D9DC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "StudentEntity\Entity.csproj", "{C12E182D-00C3-4782-8571-8E01DD1F5F75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "StudentEntity\Entity.csproj", "{C12E182D-00C3-4782-8571-8E01DD1F5F75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{CDB9034B-B598-4395-962C-D84A30ED48BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{CDB9034B-B598-4395-962C-D84A30ED48BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{DAE94F03-4178-4005-8F6F-E64E12299880}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CDB9034B-B598-4395-962C-D84A30ED48BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDB9034B-B598-4395-962C-D84A30ED48BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDB9034B-B598-4395-962C-D84A30ED48BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE94F03-4178-4005-8F6F-E64E12299880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE94F03-4178-4005-8F6F-E64E12299880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE94F03-4178-4005-8F6F-E64E12299880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE94F03-4178-4005-8F6F-E64E12299880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
