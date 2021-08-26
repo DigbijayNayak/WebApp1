@@ -25,6 +25,20 @@ namespace BusinessLogic
         {
             _dbCntxt = sdb;
         }
+        public BussinessLogic()
+        {
+            
+        }
+        public int AddTwoNumbers(int a, int b)
+        {
+            return a + b;
+        }
+
+        public int MultiplyTwoNumbers(int a, int b)
+        {
+            return a * b;
+        }
+
         public StudentEntity GetFilteredStudentRecord(int rollNo)
         {
             for(int i=0; i < entityList.Count; i++)
@@ -42,6 +56,7 @@ namespace BusinessLogic
             var num = new Random().Next(0, entityList.Count-1);
             return entityList[num];
         }
+
 
         public bool SavesStudentRecord(StudentEntity stdEntity)
         {
