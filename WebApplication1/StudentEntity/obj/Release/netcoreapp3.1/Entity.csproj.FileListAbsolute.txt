@@ -1,0 +1,10 @@
+D:\WebApplication\WebApplication1\StudentEntity\bin\Release\netcoreapp3.1\Entity.deps.json
+D:\WebApplication\WebApplication1\StudentEntity\bin\Release\netcoreapp3.1\Entity.dll
+D:\WebApplication\WebApplication1\StudentEntity\bin\Release\netcoreapp3.1\Entity.pdb
+D:\WebApplication\WebApplication1\StudentEntity\obj\Release\netcoreapp3.1\Entity.csproj.AssemblyReference.cache
+D:\WebApplication\WebApplication1\StudentEntity\obj\Release\netcoreapp3.1\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebApplication\WebApplication1\StudentEntity\obj\Release\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+D:\WebApplication\WebApplication1\StudentEntity\obj\Release\netcoreapp3.1\Entity.AssemblyInfo.cs
+D:\WebApplication\WebApplication1\StudentEntity\obj\Release\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+D:\WebApplication\WebApplication1\StudentEntity\obj\Release\netcoreapp3.1\Entity.dll
+D:\WebApplication\WebApplication1\StudentEntity\obj\Release\netcoreapp3.1\Entity.pdb

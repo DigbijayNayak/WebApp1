@@ -1,0 +1,15 @@
+D:\WebApplication\WebApplication1\BusinessLogic\bin\Release\netcoreapp3.1\BusinessLogic.deps.json
+D:\WebApplication\WebApplication1\BusinessLogic\bin\Release\netcoreapp3.1\BusinessLogic.dll
+D:\WebApplication\WebApplication1\BusinessLogic\bin\Release\netcoreapp3.1\BusinessLogic.pdb
+D:\WebApplication\WebApplication1\BusinessLogic\bin\Release\netcoreapp3.1\DataAccess.dll
+D:\WebApplication\WebApplication1\BusinessLogic\bin\Release\netcoreapp3.1\Entity.dll
+D:\WebApplication\WebApplication1\BusinessLogic\bin\Release\netcoreapp3.1\DataAccess.pdb
+D:\WebApplication\WebApplication1\BusinessLogic\bin\Release\netcoreapp3.1\Entity.pdb
+D:\WebApplication\WebApplication1\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.csproj.AssemblyReference.cache
+D:\WebApplication\WebApplication1\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebApplication\WebApplication1\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.AssemblyInfoInputs.cache
+D:\WebApplication\WebApplication1\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.AssemblyInfo.cs
+D:\WebApplication\WebApplication1\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\WebApplication\WebApplication1\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.csproj.CopyComplete
+D:\WebApplication\WebApplication1\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.dll
+D:\WebApplication\WebApplication1\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.pdb

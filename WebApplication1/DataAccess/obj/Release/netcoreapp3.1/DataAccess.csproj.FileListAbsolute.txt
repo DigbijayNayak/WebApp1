@@ -1,0 +1,13 @@
+D:\WebApplication\WebApplication1\DataAccess\bin\Release\netcoreapp3.1\DataAccess.deps.json
+D:\WebApplication\WebApplication1\DataAccess\bin\Release\netcoreapp3.1\DataAccess.dll
+D:\WebApplication\WebApplication1\DataAccess\bin\Release\netcoreapp3.1\DataAccess.pdb
+D:\WebApplication\WebApplication1\DataAccess\bin\Release\netcoreapp3.1\Entity.dll
+D:\WebApplication\WebApplication1\DataAccess\bin\Release\netcoreapp3.1\Entity.pdb
+D:\WebApplication\WebApplication1\DataAccess\obj\Release\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+D:\WebApplication\WebApplication1\DataAccess\obj\Release\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebApplication\WebApplication1\DataAccess\obj\Release\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\WebApplication\WebApplication1\DataAccess\obj\Release\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\WebApplication\WebApplication1\DataAccess\obj\Release\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\WebApplication\WebApplication1\DataAccess\obj\Release\netcoreapp3.1\DataAccess.csproj.CopyComplete
+D:\WebApplication\WebApplication1\DataAccess\obj\Release\netcoreapp3.1\DataAccess.dll
+D:\WebApplication\WebApplication1\DataAccess\obj\Release\netcoreapp3.1\DataAccess.pdb
