@@ -19,7 +19,7 @@ namespace BusinessLogic
         //};
 
         List<StudentEntity> entityList2 = new List<StudentEntity>();
-
+        List<UserDetails> userList = new List<UserDetails>();
         StudentDbContext _dbCntxt; //
         public BussinessLogic(StudentDbContext sdb)
         {
@@ -50,6 +50,20 @@ namespace BusinessLogic
             }
             return null;
         }
+        public bool GetFilteredByUser(UserDetails user)
+        {
+            userList = _dbCntxt.UserDetails.ToList();
+            for(int i = 0; i < userList.Count; i++)
+            {
+                if ((userList[i].User_id == user.User_id) && (userList[i].Password == user.Password))
+                {
+                    //Console.WriteLine("login Successfully");
+                    return true;
+                }
+            }
+            //return null;
+            return false;
+        }
         public StudentEntity GetFilteredByRandom()
         {
             entityList = _dbCntxt.StudentEntity.ToList(); //linq
@@ -62,6 +76,13 @@ namespace BusinessLogic
         {
             //entityList.Add(stdEntity);
             _dbCntxt.StudentEntity.Add(stdEntity);
+            _dbCntxt.SaveChanges();
+            return true;
+        }
+        public bool SavesUserDetailsRecord(UserDetails userEntity)
+        {
+            //entityList.Add(stdEntity);
+            _dbCntxt.UserDetails.Add(userEntity);
             _dbCntxt.SaveChanges();
             return true;
         }

@@ -13,5 +13,6 @@ namespace DataAccess
         {
 
         }
+        public DbSet<UserDetails> UserDetails { get; set; }
     }
 }

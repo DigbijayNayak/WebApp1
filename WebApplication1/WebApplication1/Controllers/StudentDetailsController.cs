@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BusinessLogic;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication1.Controllers
 {
@@ -14,7 +15,8 @@ namespace WebApplication1.Controllers
     public class StudentDetailsController : Controller
     {
         private readonly ILogger<StudentDetailsController> _logger;
-        IBusinessLogic _businessLogic;  
+        IBusinessLogic _businessLogic;
+
         public StudentDetailsController(ILogger<StudentDetailsController> logger, IBusinessLogic businessLogic)
         {
             _logger = logger;
@@ -33,6 +35,12 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
+
+        //[HttpGet]
+        //public async Task<ActionResult<IEnumerable<UserDetails>>> GetUserDetails()
+        //{
+        //    return await DbContext.UserDetails.ToListAsync();
+        //}
 
         [HttpGet]
         public IEnumerable<StudentEntity> GetRandom()
@@ -59,6 +67,22 @@ namespace WebApplication1.Controllers
             //    Section = result.Section,
             //})
             //.ToArray();
+        }
+        //[HttpPost]
+        //public UserDetails AddUser(UserDetails user)
+        //{
+        //    return
+        //}
+        [HttpPost]
+        public bool GetUser(UserDetails user)
+        {
+            return _businessLogic.GetFilteredByUser(user);
+        }
+
+        [HttpPost]
+        public bool SaveUser(UserDetails userEntity)
+        {
+            return _businessLogic.SavesUserDetailsRecord(userEntity);
         }
 
 
