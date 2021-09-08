@@ -32,6 +32,10 @@ namespace WebApplication1
             string mySqlConnectionStr = Configuration.GetConnectionString("DefaultConnection");
             //MySQL
             services.AddDbContextPool<StudentDbContext>(options => options.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
             services.AddCors(options =>
             {
                 options.AddPolicy(allowSpecificOrigins,
