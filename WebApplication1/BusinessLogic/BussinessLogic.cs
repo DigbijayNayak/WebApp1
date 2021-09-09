@@ -50,7 +50,7 @@ namespace BusinessLogic
             }
             return null;
         }
-        public bool GetFilteredByUser(UserDetails user)
+        public bool GetFilteredById(UserDetails user)
         {
             userList = _dbCntxt.UserDetails.ToList();
             for(int i = 0; i < userList.Count; i++)
@@ -84,7 +84,15 @@ namespace BusinessLogic
             //entityList.Add(stdEntity);
             _dbCntxt.UserDetails.Add(userEntity);
             _dbCntxt.SaveChanges();
-            return true;
+            userList = _dbCntxt.UserDetails.ToList();
+            for(int i=0; i<userList.Count; i++)
+            {
+                if(userList[i].User_id == userEntity.User_id)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
         public List<StudentEntity> GetFilteredByName(string name)
         {

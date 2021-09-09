@@ -13,7 +13,7 @@ namespace BusinessLogic
         public bool SavesStudentRecord(StudentEntity stdEntity);
 
         public bool SavesUserDetailsRecord(UserDetails userEntity);
-        public bool GetFilteredByUser(UserDetails user);
+        public bool GetFilteredById(UserDetails user);
         
         public List<StudentEntity> GetFilteredByName(string name);
 

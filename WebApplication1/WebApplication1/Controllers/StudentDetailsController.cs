@@ -74,9 +74,9 @@ namespace WebApplication1.Controllers
         //    return
         //}
         [HttpPost]
-        public bool GetUser(UserDetails user)
+        public bool LogInUser(UserDetails user)
         {
-            return _businessLogic.GetFilteredByUser(user);
+            return _businessLogic.GetFilteredById(user);
         }
 
         [HttpPost]
